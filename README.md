@@ -1,2 +1,2 @@
 # 2D-Platformer
-Comp 585 group Project.
+Comp 585 group project.
