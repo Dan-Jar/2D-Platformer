@@ -378,7 +378,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4461732551733051535}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7274737244975383515}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: sceneLoader
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 4
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &260734338223605746
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,7 +1366,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975188632784320658}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2790,7 +2802,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7390269749795114033}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7274737244975383515}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: sceneLoader
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1798185172590194930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4415,7 +4439,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 5984935931015778084}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7274737244975383515}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: sceneLoader
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 1
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3185699807089574189
 GameObject:
   m_ObjectHideFlags: 0
@@ -6594,7 +6630,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6287059333010352037}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7274737244975383515}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: sceneLoader
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 5
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4793902804595436679
 GameObject:
   m_ObjectHideFlags: 0
@@ -11573,7 +11621,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 4737555763107201426}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7274737244975383515}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: sceneLoader
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Level 3
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8076544662854531878
 GameObject:
   m_ObjectHideFlags: 0
@@ -11817,6 +11877,7 @@ GameObject:
   - component: {fileID: 8178078747708190689}
   - component: {fileID: 8045635483268897957}
   - component: {fileID: 5571134710637927397}
+  - component: {fileID: 7274737244975383515}
   m_Layer: 5
   m_Name: Menus
   m_TagString: Untagged
@@ -11912,6 +11973,18 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7274737244975383515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8230675692558321709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b25fd3f4d10b3914fac9d741644e475f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8405597286561983463
 GameObject:
   m_ObjectHideFlags: 0

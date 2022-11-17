@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
 {
@@ -16,9 +17,9 @@ public class UIManager : MonoBehaviour
         
     }
 
-    public void prevMenu()
+    public void sceneLoader(string scene)
     {//returns back to the previous menu option
-        Debug.Log("print");
+       SceneManager.LoadScene(scene);
     }
 }
 
