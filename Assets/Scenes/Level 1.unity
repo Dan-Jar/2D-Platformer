@@ -273,9 +273,14 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1203380357
+--- !u!1 &1376977187 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2587860967609109200, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
+  m_PrefabInstance: {fileID: 1522787861}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1522787861
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -296,7 +301,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4237597646913015, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4237597646913015, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
       propertyPath: m_AnchorMax.x
@@ -370,5 +375,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7676305919064466557, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
+      propertyPath: levels
+      value: 
+      objectReference: {fileID: 8230675692558321709, guid: fe42a29085863c341bf8e47ae3696297, type: 3}
+    - target: {fileID: 7676305919064466557, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
+      propertyPath: menuvars
+      value: 
+      objectReference: {fileID: 4701272753811870561, guid: fe42a29085863c341bf8e47ae3696297, type: 3}
+    - target: {fileID: 7676305919064466557, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
+      propertyPath: pauseScreen
+      value: 
+      objectReference: {fileID: 1376977187}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53ab44249b9117a4aa5293ad7fdf8b73, type: 3}
