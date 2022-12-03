@@ -1,6 +1,7 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 using TMPro;
+using Cinemachine;
 public class PlayerManager : MonoBehaviour
 {
 
@@ -20,17 +21,33 @@ public class PlayerManager : MonoBehaviour
     // ref to coin text in canvas
     public TextMeshProUGUI coinText;
 
+    //ref to cinemachine camera
 
+    public CinemachineVirtualCamera VCam;
+
+
+
+    // ref to players
+
+    public GameObject[] playerPreSets;
+   
+    // store char number
+    int charIndex;
 
 
     private void Awake()
     {
+        charIndex = PlayerPrefs.GetInt("SelectedCharacter", 0);
+
+        GameObject player =  Instantiate(playerPreSets[charIndex], checkpointPos, Quaternion.identity);
+
+        VCam.m_Follow = player.transform;
 
         numCoins = PlayerPrefs.GetInt("numCoins", 0);
 
         isGameOver = false;
 
-        GameObject.FindGameObjectWithTag("Player").transform.position = checkpointPos;
+        
 
     }
 
