@@ -9,7 +9,12 @@ public class PlayerManager : MonoBehaviour
     
     //ref to game over screen 
     public GameObject gameOverScreen;
-  
+
+    // ref to pause menu
+
+    public GameObject pauseMenuScreen;
+
+
     // Holds players starting position 
     public static Vector2 checkpointPos = new Vector2(-16, -2);
 
@@ -33,6 +38,11 @@ public class PlayerManager : MonoBehaviour
    
     // store char number
     int charIndex;
+
+
+   
+
+  
 
 
     private void Awake()
@@ -77,6 +87,30 @@ public class PlayerManager : MonoBehaviour
     public void replayLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+
+    }
+
+
+    public void PauseButton()
+    {
+        Time.timeScale = 0;
+
+        pauseMenuScreen.SetActive(true);
+    }
+
+
+    public void ResumeButton()
+    {
+        Time.timeScale = 1;
+
+        pauseMenuScreen.SetActive(false);
+    }
+
+
+    public void HomeButton()
+    {
+        // loading main menu screen w/ its index (0)
+        SceneManager.LoadScene("MainMenu");
 
     }
 
