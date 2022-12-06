@@ -96,6 +96,8 @@ public class PlayerManager : MonoBehaviour
         Time.timeScale = 0;
 
         pauseMenuScreen.SetActive(true);
+
+        AudioManager.instance.Play("PAUSE");
     }
 
 

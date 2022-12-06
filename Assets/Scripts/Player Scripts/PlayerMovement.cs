@@ -97,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
             numJumps = 0;
             playerRB.velocity = new Vector2(playerRB.velocity.x, jumpLevel);
             numJumps++;
+            AudioManager.instance.Play("JUMP");
         }
         else
         {
@@ -104,7 +105,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 playerRB.velocity = new Vector2(playerRB.velocity.x, jumpLevel);
                 numJumps++;
-
+                AudioManager.instance.Play("JUMP");
             }
         }
         

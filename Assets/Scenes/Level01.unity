@@ -567,7 +567,7 @@ RectTransform:
   - {fileID: 159490153}
   - {fileID: 1117712085}
   m_Father: {fileID: 1980528123}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -612,6 +612,59 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687082556}
   m_CullTransparentMesh: 1
+--- !u!1 &874308719 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4498428772265532861, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+  m_PrefabInstance: {fileID: 1896939731}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &874308721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 874308719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cefd9bf2d7d554792d87485dc789c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: GAMEOVER
+    clip: {fileID: 8300000, guid: a2625b5d5a68a7844995a12cb5dc51fb, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: COINS
+    clip: {fileID: 8300000, guid: 62f76c56d667d474382be13ca850733c, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: JUMP
+    clip: {fileID: 8300000, guid: b1071cbdae60598458e8fe04cba87473, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: CHECKPOINT
+    clip: {fileID: 8300000, guid: 853321eebaf841e44befb9f555a4e21c, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: PAUSE
+    clip: {fileID: 8300000, guid: 7dd25703747b25e43bcc19ad30aba1f4, type: 3}
+    mixer: {fileID: 0}
+    volume: 0.5
+    pitch: 0.5
+    loop: 0
+    source: {fileID: 0}
 --- !u!1 &1117712084
 GameObject:
   m_ObjectHideFlags: 0
@@ -778,7 +831,7 @@ RectTransform:
   m_Children:
   - {fileID: 265023997}
   m_Father: {fileID: 1980528123}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

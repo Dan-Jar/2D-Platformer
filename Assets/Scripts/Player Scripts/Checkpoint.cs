@@ -14,6 +14,7 @@ public class Checkpoint : MonoBehaviour
 
             // change color of checkpoint to black
             GetComponent<SpriteRenderer>().color = Color.black;
+            AudioManager.instance.Play("CHECKPOINT");
         }
     }
 
