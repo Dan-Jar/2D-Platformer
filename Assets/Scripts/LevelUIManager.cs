@@ -19,7 +19,10 @@ public class LevelUIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape)) {
 
+            PauseGame();    
+        }
     }
 
     public void PauseGame()
@@ -36,25 +39,30 @@ public class LevelUIManager : MonoBehaviour
 
     public void restart()
     {   //from the active scene get the index and reload the scene
+        Time.timeScale = 1.0f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void levelsMenu()
     {
+        Time.timeScale = 1.0f;
         levels.transform.GetChild(0).gameObject.SetActive(false);
+       // Debug.Log(levels.transform.GetChild(0).gameObject.name +" active:" +levels.transform.GetChild(0).gameObject.activeSelf);
         levels.transform.GetChild(1).gameObject.SetActive(true);
         //from the active scene get the index and load the scene
         SceneManager.LoadScene(0);
-        
-        
 
-       
+
+
+
     }
     public void storeMenu()
     {
+        Time.timeScale = 1.0f;
         levels.transform.GetChild(0).gameObject.SetActive(false);
-        levels.transform.GetChild(3).gameObject.SetActive(true);
+        levels.transform.GetChild(2).gameObject.SetActive(true);
         //from the active scene get the index and load the scene
+       // Debug.Log(levels.transform.GetChild(0).gameObject.name + " active:" + levels.transform.GetChild(0).gameObject.activeSelf);
         SceneManager.LoadScene(0);
 
     }
