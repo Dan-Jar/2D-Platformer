@@ -29,6 +29,9 @@ public class LevelUIManager : MonoBehaviour
     {
         Time.timeScale = 0.0f;
         pauseScreen.SetActive(true);
+
+        AudioManager.instance.Play("PAUSE");
+
     }
 
     public void resumeGame()

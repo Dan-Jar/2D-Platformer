@@ -292,6 +292,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[1].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[2].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[3].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[4].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3816069259341683950, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
+      propertyPath: sounds.Array.data[1].volume
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7138234308138687677, guid: 4cb9debd257d8aa46a2ee7c016beba10, type: 3}
       propertyPath: m_IsActive
       value: 1

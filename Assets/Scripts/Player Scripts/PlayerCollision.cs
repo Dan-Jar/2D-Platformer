@@ -15,6 +15,9 @@ public class PlayerCollision : MonoBehaviour
             //calling PlayerMaanger scripts isGameOver func and setting it to true 
             PlayerManager.isGameOver = true;
 
+            // player game-over audio
+            AudioManager.instance.Play("DEATH");
+
 
             //disable player movement when game ends
 
