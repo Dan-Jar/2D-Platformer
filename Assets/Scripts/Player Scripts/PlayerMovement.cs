@@ -9,12 +9,12 @@ public class PlayerMovement : MonoBehaviour
 
     float direction = 0;
 
-    public float speed = 400;
+    public float speed = 100;
 
     public Rigidbody2D playerRB;
 
     // ref to jump level
-    public float jumpLevel = 5;
+    public float jumpLevel = 0.1f;
 
 
     // ref double jump

@@ -169,9 +169,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bca7ce0e8a7eea8449eb8b06f653314d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 400
+  speed: 350
   playerRB: {fileID: 6412595194428126589}
-  jumpLevel: 6.5
+  jumpLevel: 4
   jumpCheck: {fileID: 6412595195694062648}
   groundLayer:
     serializedVersion: 2
