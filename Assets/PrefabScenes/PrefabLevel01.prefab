@@ -2103,34 +2103,34 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 5f027b59dfacaac44be7b0cdfcd282e1, type: 3}
     mixer: {fileID: 0}
     volume: 0.1
-    pitch: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: COIN
     clip: {fileID: 8300000, guid: a8e32b08dd73d1b4684e1cb7f76637ea, type: 3}
     mixer: {fileID: 0}
     volume: 0.1
-    pitch: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: DEATH
     clip: {fileID: 8300000, guid: 9ce734f898aa8be4eb39032358831e63, type: 3}
     mixer: {fileID: 0}
     volume: 0.1
-    pitch: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: PAUSE
     clip: {fileID: 8300000, guid: 8e3820160d22f5f42bdcd29be88c42e9, type: 3}
     mixer: {fileID: 0}
     volume: 0.1
-    pitch: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: CHECKPOINT
     clip: {fileID: 8300000, guid: ffbea6fd4f2751740b7763db0ba04ff6, type: 3}
     mixer: {fileID: 0}
     volume: 0.1
-    pitch: 0.1
+    pitch: 1
     loop: 0
     source: {fileID: 0}
