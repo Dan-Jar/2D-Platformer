@@ -11,7 +11,7 @@ public class PlayerManager : MonoBehaviour
     public GameObject gameOverScreen;
   
     // Holds players starting position 
-    public static Vector2 checkpointPos = new Vector2(-16, -2);
+    public static Vector2 checkpointPos = new Vector2(-24, -13);
 
 
     // holds coin num

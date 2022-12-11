@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundMove : MonoBehaviour
+public class BackgroundMove1 : MonoBehaviour
 {
     public Transform mainCam;
    
@@ -12,7 +12,7 @@ public class BackgroundMove : MonoBehaviour
     // ref to the side background image
     public Transform edgeImage;
 
-    public float lengthImage = 65f;
+    public float lengthImage = 53f;
 
    
 
