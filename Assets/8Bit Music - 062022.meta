@@ -1,7 +1,12 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/8Bit Music - 062022.meta
 guid: 1a6bcb065d4bf52438a3054e1ab900bc
 folderAsset: yes
 DefaultImporter:
+========
+guid: 58ab2be101027e34b88b77c0ac1535dd
+PrefabImporter:
+>>>>>>>> 3e7bcfe454b6bc2cba94ad54b3b06ec62dd087de:Assets/Prefabs/Finish Level.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
