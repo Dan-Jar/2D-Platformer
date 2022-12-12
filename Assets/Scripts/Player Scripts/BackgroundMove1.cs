@@ -12,7 +12,7 @@ public class BackgroundMove1 : MonoBehaviour
     // ref to the side background image
     public Transform edgeImage;
 
-    public float lengthImage = 53f;
+    public float lengthImage = 40f;
 
    
 
