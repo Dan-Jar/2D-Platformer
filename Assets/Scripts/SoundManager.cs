@@ -1,48 +1,10 @@
-using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Audio;
 using UnityEngine.UI;
 
-public class AudioManager : MonoBehaviour {
-
-	public static AudioManager instance;
-
-	public Sound[] sounds;
-
-	void Awake ()
-	{
-		if (instance != null)
-		{
-			Destroy(gameObject);
-			return;
-		} else
-		{
-			instance = this;
-			DontDestroyOnLoad(gameObject);
-		}
-
-		foreach (Sound s in sounds)
-		{
-			s.source = gameObject.AddComponent<AudioSource>();
-			s.source.clip = s.clip;
-			s.source.volume = s.volume;
-			s.source.pitch = s.pitch;
-			s.source.loop = s.loop;
-		}
-	}
-
-	public void Play(string sound)
-	{
-		Sound s = Array.Find(sounds, item => item.name == sound);
-		s.source.Play();
-	}
-	public void Stop(string sound)
-	{
-		Sound s = Array.Find(sounds, item => item.name == sound);
-		s.source.Stop();
-	}
-    //changing sound settings
-
+public class SoundManager : MonoBehaviour
+{
     [Header("Sound Sliders")]
     [SerializeField]
     private Slider MasterLevel;
@@ -55,11 +17,9 @@ public class AudioManager : MonoBehaviour {
 
     private void Start()
     {
-        //load previous audio settings
-        LoadValues();
+       //load previous audio settings
+       LoadValues();
     }
-
-
 
     public void MasterVolumeSlider()
     {
@@ -84,10 +44,6 @@ public class AudioManager : MonoBehaviour {
     {
         //save the currrent volume value
         float sfx = SFXLevel.value;
-        foreach (Sound s in sounds)
-        {   //change the volume level of each sound effect
-            s.source.volume = SFXLevel.value;
-        }
         PlayerPrefs.SetFloat("SFX", sfx);
         LoadValues();
     }
@@ -103,5 +59,4 @@ public class AudioManager : MonoBehaviour {
         MasterLevel.value = master;
         AudioListener.volume = master;//master volume
     }
-
 }
